@@ -1,0 +1,339 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  padding: 2em 0.5em;
+  background-color: #e74c3c;
+  margin-bottom: 40px;
+}
+header h1 {
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  font-size: 2rem;
+  text-align: center;
+}
+header h3 {
+  color: #fff;
+  text-align: center;
+}
+
+@media screen and (max-width: 375px) {
+  header h1 {
+    font-size: 1.2em;
+  }
+}
+.box-estado {
+  position: absolute;
+  top: 15px;
+  left: -20px;
+  border: 0.05em solid black;
+  border-radius: 0.5em;
+  width: 10em;
+  padding: 1em;
+  background-color: #ECA8A0;
+}
+
+div.mapa {
+  display: flex;
+  position: relative;
+}
+div.mapa img {
+  margin: 0 auto;
+}
+div.mapa .dot {
+  border-radius: 10em;
+  background-color: #FF3021;
+  width: 8px;
+  height: 8px;
+  box-shadow: 0px 0px 10px 0px #FF3021;
+}
+div.mapa .dot:hover {
+  box-shadow: 0px 0px 10px 5px #FF3021;
+}
+
+.dot-ba {
+  position: absolute;
+  left: 63%;
+  top: 48%;
+}
+
+.dot-ce {
+  position: absolute;
+  left: 65%;
+  top: 26%;
+}
+
+.dot-df {
+  position: absolute;
+  left: 55%;
+  top: 53.4%;
+}
+
+.dot-mg {
+  position: absolute;
+  left: 60%;
+  top: 62%;
+}
+
+.dot-mg-2 {
+  position: absolute;
+  left: 57%;
+  top: 66%;
+}
+
+.dot-ms {
+  position: absolute;
+  left: 46%;
+  top: 66%;
+}
+
+.dot-mt {
+  position: absolute;
+  left: 44%;
+  top: 52%;
+}
+
+.dot-pe {
+  position: absolute;
+  left: 70%;
+  top: 34.5%;
+}
+
+.dot-pi {
+  position: absolute;
+  left: 60%;
+  top: 34.5%;
+}
+
+.dot-pr {
+  position: absolute;
+  left: 53.5%;
+  top: 77.5%;
+}
+
+.dot-rj {
+  position: absolute;
+  left: 62%;
+  top: 70%;
+}
+
+.dot-rs {
+  position: absolute;
+  left: 49%;
+  top: 88%;
+}
+
+.dot-sc {
+  position: absolute;
+  left: 53.4%;
+  top: 83.5%;
+}
+
+.dot-sp {
+  position: absolute;
+  left: 55%;
+  top: 73.5%;
+}
+
+.dot-to {
+  position: absolute;
+  left: 54%;
+  top: 33%;
+}
+
+@media screen and (max-width: 768px) {
+  img {
+    width: 100vw;
+  }
+
+  .dot-ba {
+    left: 75%;
+  }
+
+  .dot-ce {
+    left: 78%;
+  }
+
+  .dot-df {
+    left: 58.5%;
+  }
+
+  .dot-mg {
+    left: 70%;
+  }
+
+  .dot-mg-2 {
+    left: 65%;
+  }
+
+  .dot-pe {
+    left: 85%;
+  }
+
+  .dot-pi {
+    left: 70%;
+  }
+
+  .dot-pr {
+    left: 55%;
+  }
+
+  .dot-rj {
+    left: 69%;
+  }
+
+  .dot-sc-1 {
+    left: 55%;
+    top: 84%;
+  }
+
+  .dot-sc-2 {
+    left: 55%;
+    top: 81%;
+  }
+
+  .dot-sp-1 {
+    left: 57%;
+    top: 74.5%;
+  }
+
+  .dot-sp-2 {
+    left: 60%;
+  }
+
+  .dot-sp-3 {
+    left: 60%;
+    top: 71%;
+  }
+
+  .dot-sp-4 {
+    left: 54%;
+    top: 65%;
+  }
+
+  .dot-sp-5 {
+    left: 53%;
+    top: 69%;
+  }
+
+  .dot-sp-6 {
+    left: 57.5%;
+    top: 71%;
+  }
+
+  .dot-sp-7 {
+    left: 56%;
+    top: 67%;
+  }
+
+  .dot-sp-8 {
+    left: 55.3%;
+  }
+
+  .dot-sp-9 {
+    left: 57%;
+    top: 69%;
+  }
+
+  .dot-to {
+    left: 57%;
+  }
+}
+@media screen and (max-width: 414px) {
+  img {
+    height: 400px;
+    width: 100vw;
+  }
+
+  .dot-rj {
+    left: 67%;
+    top: 68.5%;
+  }
+
+  .dot-rs-1 {
+    left: 42%;
+    top: 85%;
+  }
+
+  .dot-rs-2 {
+    left: 46%;
+    top: 85%;
+  }
+
+  .dot-rs-3 {
+    left: 47%;
+    top: 87%;
+  }
+
+  .dot-rs-4 {
+    left: 50%;
+    top: 87%;
+  }
+
+  .dot-sc-1 {
+    top: 81%;
+    left: 54%;
+  }
+
+  .dot-sc-2 {
+    top: 77%;
+    left: 54%;
+  }
+
+  .dot-pr {
+    top: 75%;
+  }
+
+  .dot-pr-2 {
+    top: 74%;
+  }
+
+  .dot-sp-1 {
+    left: 57%;
+    top: 72.5%;
+  }
+
+  .dot-sp-2 {
+    left: 57%;
+    top: 69%;
+  }
+
+  .dot-sp-3 {
+    left: 62%;
+    top: 69%;
+  }
+
+  .dot-sp-4 {
+    left: 53%;
+    top: 64%;
+  }
+
+  .dot-sp-5 {
+    left: 50%;
+    top: 67%;
+  }
+
+  .dot-sp-6 {
+    left: 59%;
+    top: 71%;
+  }
+
+  .dot-sp-7 {
+    left: 55%;
+    top: 66%;
+  }
+
+  .dot-sp-8 {
+    left: 55.3%;
+  }
+
+  .dot-sp-9 {
+    left: 57%;
+    top: 69%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
