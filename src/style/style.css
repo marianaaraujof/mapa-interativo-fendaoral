@@ -1,6 +1,10 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: "Open Sans", sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: antialiased;
 }
 
 header {
@@ -31,11 +35,13 @@ header h3 {
 
 .box-estado {
   visibility: hidden;
-  border: 0.05em solid black;
+  border: 0.1em solid #FF5542;
   border-radius: 0.5em;
   text-align: center;
   padding: 0.7em;
-  background-color: #ECA8A0;
+  background-color: white;
+  color: #807C7A;
+  font-weight: 600;
 }
 
 .show {
@@ -64,17 +70,17 @@ header h3 {
 
 #parana {
   position: relative;
-  top: -300px;
+  top: -350px;
 }
 
 #stacatarina {
   position: relative;
-  top: -300px;
+  top: -400px;
 }
 
 #riogdosul {
   position: relative;
-  top: -350px;
+  top: -450px;
 }
 
 div.mapa {
